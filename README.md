@@ -86,3 +86,8 @@ Guidelines
 
 
 These guidelines are WIP - [your feedback](https://github.com/dlang-community/discussions/issues) is welcome!
+
+### Q: What should I do when I want to move a package to dlang-community?
+
+Please open an issue and let's have a discussion - we don't bite!
+Don't create new package _without_ consulting other dlang-community members.
