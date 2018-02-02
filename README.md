@@ -91,3 +91,12 @@ These guidelines are WIP - [your feedback](https://github.com/dlang-community/di
 
 Please open an issue and let's have a discussion - we don't bite!
 Don't create new package _without_ consulting other dlang-community members.
+
+
+How do I become a member of the DLang community?
+------------------------------------------------
+
+First of all, by reading this you most likely are already.
+For this GitHub community there are two options:
+You are already a well-known member of the D community, then simply [ping us](https://github.com/dlang-community/discussions/issues/new) for merge rights.
+Otherwise, start contributing to one of the projects and earn your trust.
