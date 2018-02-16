@@ -29,7 +29,7 @@ In doubt, please open an issue!
 
 ### Popularity
 
-Q: Is there enough interest from the general public, s.t. it is "worth maintaining"?
+Q: Is there enough interest from the D community, s.t. it is "worth maintaining"?
 
 ### Competition
 
