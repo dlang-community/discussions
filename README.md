@@ -81,7 +81,8 @@ Guidelines
 ### Q: When can I (self)-pull a PR?
 
 - Allowed without CI: typos, Readme changes, etc.
-- Allowed without a reply within one week: bug fixes that pass CI
+- Allowed to pull immediately: critical bug fixes that pass the CI (critical = breakage with dmd-nightly or obviously wrong)
+- Allowed without a reply within a few days: bug fixes that pass the CI
 - Do _not_ pull new features without approval (if the original author is still present, new features should be approved by him)
 
 
