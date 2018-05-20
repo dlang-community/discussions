@@ -7,16 +7,16 @@ About the organization
 ----------------------
 
 This organization was formed by annoyance of needing to fork popular repositories to get fixes merged.
-Similarly to `std.experimental` projects are still driven by their original authors if they have the time.
-However, small bug fixes don't need to wait in the queue for months and in case the author is completely gone
+Similarly to `std.experimental`, projects are still driven by their original authors if they have the time.
+However, small bug fixes don't need to wait in the queue for months, and in case the author is completely gone,
 the DLang community has one upstream repository instead of ten different forks containing the same fix.
-Moreover, thanks to being a larger organization the overhead of a project can be
+Moreover, thanks to being a larger organization, the overhead of a project can be
 distributed and more easily automated (e.g. documentation builds, binary releases etc.).
 
 Getting in touch
 ----------------
 
-This is public discussion list based on [GitHub issues](https://github.com/dlang-community/discussions/issues).
+This is a public discussion list based on [GitHub issues](https://github.com/dlang-community/discussions/issues).
 
 Do you have a question?
 Then don't hesitate to [open an issue](https://github.com/dlang-community/discussions/issues/new)!
@@ -25,11 +25,11 @@ Adoption guidelines
 -------------------
 
 These question are intended to give a rough feeling on what packages might be considered for adoption.
-In doubt, please open an issue!
+When in doubt, please open an issue!
 
 ### Popularity
 
-Q: Is there enough interest from the D community, s.t. it is "worth maintaining"?
+Q: Is there enough interest from the D community, i.e. is it "worth maintaining"?
 
 ### Competition
 
@@ -38,7 +38,7 @@ Q: Is there a similar library with active development out there?
 ### Maintainer/sponsor
 
 Q: Is at least one of the DLang community member competent for the domain covered by the project?
-   If no is there anyone who's willing to join?
+   If not, is there anyone willing to join?
 
 Best practices
 --------------
@@ -63,7 +63,7 @@ all changes should be tested as extensively as possible:
   - Enable daily crons
 - AppVeyor (Windows)
 - Test the following compilers
-  - `dmd`, `dmd-beta`, dmd-nightly
+  - `dmd`, `dmd-beta`, `dmd-nightly`
   - `ldc`, `ldc-beta`
 
 ### DUB
@@ -81,7 +81,7 @@ Guidelines
 ### Q: When can I (self)-pull a PR?
 
 - Allowed without CI: typos, Readme changes, etc.
-- Allowed to pull immediately: critical bug fixes that pass the CI (critical = e.g. breakage with dmd-nightly)
+- Allowed to be pulled immediately: critical bug fixes that pass the CI (critical = e.g. breakage with dmd-nightly)
 - Allowed without a reply within a few days: bug fixes that pass the CI
 - Do _not_ pull new features without approval (if the original author is still present, new features should be approved by him)
 
@@ -91,7 +91,7 @@ These guidelines are WIP - [your feedback](https://github.com/dlang-community/di
 ### Q: What should I do when I want to move a package to dlang-community?
 
 Please open an issue and let's have a discussion - we don't bite!
-Don't create new package _without_ consulting other dlang-community members.
+Please don't create new packages _without_ consulting other dlang-community members.
 
 
 How do I become a member of the DLang community?
@@ -99,5 +99,6 @@ How do I become a member of the DLang community?
 
 First of all, by reading this you most likely are already.
 For this GitHub community there are two options:
-You are already a well-known member of the D community, then simply [ping us](https://github.com/dlang-community/discussions/issues/new) for merge rights.
-Otherwise, start contributing to one of the projects and earn your trust.
+
+- You are already a well-known member of the D community, then simply [ping us](https://github.com/dlang-community/discussions/issues/new) for merge rights.
+- Otherwise, start contributing to one of the projects and earn your trust.
